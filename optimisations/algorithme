@@ -1,0 +1,7 @@
+Dans l'étude de A. Ning [1], l'algorithme d'optimisation utilisé est la fonction fmincon de MATLAB.
+Cette fonction appartient à la famille des algorithmes fonctionnant par méthode de descente de gradient. Cette fonction est tirée de l'étude de R.Byrd et al. [2]
+
+Tous les objectifs et contraintes utilisés dans cette fonction sont normalisés par les valeurs calculées pour l'éolienne de référence.
+
+[1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
+[2] R. H. Byrd, J. C. Gilbert, et J. Nocedal, « A trust region method based on interior point techniques for nonlinear programming », Math. Program., vol. 89, nᵒ 1, p. 149‑185, nov. 2000, doi: 10.1007/PL00011391.
