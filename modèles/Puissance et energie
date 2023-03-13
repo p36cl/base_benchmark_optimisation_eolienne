@@ -1,0 +1,35 @@
+Aérodynamique :
+
+Dans l'étude de A. Ning [1], les performances aérodynamiques sont calculées via une méthode BEM modifiée.
+
+La méthode BEM désigne la théorie du Blade Element Momentum. Cette dernière est ici modifiée (réduite à une seule variable) pour assurer la convergence (cf. ref [2]).
+D'autres modifications de la théorie sont prises en compte telles que les pertes en bout de pales de Prandtl [3] ou la correction pour les grandes valeur d'induction [4.]
+
+Le code BEM global est appelé CCBlade.
+
+Mécanique : 
+
+Un coefficient de perte est affecté à la puissance aérodynamique afin de modéliser les pertes de transmission. La puissance P finalement récupére s'exprime :
+
+P = η.Paero
+
+avec η = 1-(a x (Pnom/Paero) + b)
+
+avec a = 0.0129
+b=0.0851
+Pnom = puissance nominale de l'éolienne (ici 5MW)
+
+Contrôle : 
+ En fonction de la vitesse de vent(V), la puissance de l'éolienne peut se trouver dans 3 zones : 
+ -> Si V<Vdémarrage : P = 0
+ -> Si Vdémarrage< V et P<Pnom : Puissance maximale pour cette vitesse de vent
+ -> Si Vdémarrage< V et P>Pnom : P=Pnom
+ 
+ Profil de vent : 
+ 
+ Pour calculer la production annuelle d'énergie (AEP) il faut affecter un profil de vitesses de vent annuelles.
+Ici une répartition de Rayleigh avec une moyenne de 10 m/s est choisie
+[1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
+[2] A. Ning, « A simple solution method for the blade element momentum equations with guaranteed convergence », Wind Energy, 2014, doi: 10.1002/we.1636.
+[3] Glauert, H. (1935). Airplane Propellers. In: Aerodynamic Theory. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-91487-4_3
+[4] J. Buhl, « New Empirical Relationship between Thrust Coefficient and Induction Factor for the Turbulent Windmill State », National Renewable Energy Lab. (NREL), Golden, CO (United States), NREL/TP-500-36834, août 2005. doi: 10.2172/15016819.
