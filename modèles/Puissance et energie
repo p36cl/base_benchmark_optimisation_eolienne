@@ -27,8 +27,16 @@ Contrôle :
  
  Profil de vent : 
  
- Pour calculer la production annuelle d'énergie (AEP) il faut affecter un profil de vitesses de vent annuelles.
+Pour calculer la production annuelle d'énergie (AEP) il faut affecter un profil de vitesses de vent annuelles.
 Ici une répartition de Rayleigh avec une moyenne de 10 m/s est choisie
+
+Pertes parc : 
+
+Enfin l'AEP est diminuée afin de prendre en compte : 
+-> Les pertes liées à l'interferénce des sillages entre éoliennes (10% de réduction de l'AEP)
+-> L'indisponibilité du réseau (disponible 95% du temps).
+
+
 [1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
 [2] A. Ning, « A simple solution method for the blade element momentum equations with guaranteed convergence », Wind Energy, 2014, doi: 10.1002/we.1636.
 [3] Glauert, H. (1935). Airplane Propellers. In: Aerodynamic Theory. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-91487-4_3
