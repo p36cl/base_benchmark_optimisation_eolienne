@@ -10,6 +10,7 @@ Ensemble des caractéristiques variables :
 ->vitesse spécifique (λ) dans la région 2 de fonctionnment (voir rubrique éolienne de référence)
 ->Diamètre du rotor
 ->Puissance nominale
+->Vitesse de vent au niveau du rotor
 
 Ensemble des contraintes d'optimisation :
 étude des conditions extrêmes sur 50 ans càd à une vitesse de vent de 70 m/s
@@ -24,6 +25,8 @@ Ensemble des contraintes d'optimisation :
 Ensemble des critères d'évaluation : 
 
 -> Maximisation de la production annuelle d'énergie (AEP)
--> Minimisation du poids de la pale
--> Minimisation du coût de l'énergie (COE)
+-> Minimisation de la masse
+-> Minimisation du coût de l'énergie (COE) (pouvant varier avec la vitesse au niveau 
+-> Minimisation rapport masse/AEP
+
 [1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
