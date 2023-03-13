@@ -1,5 +1,15 @@
 Dans son étude, A. Ning [1] propose différents problèmes d'optimisation.
 
-Dans ceux-ci les contraintes et les objectifs d'optimisation peuvent être différents.
+Dans ceux-ci les objectifs d'optimisation, les caractéristiques recherchées et les contraintes peuvent être différents.
+
+Ensemble des contraintes d'optimisation :
+étude des conditions extrêmes sur 50 ans càd à une vitesse de vent de 70 m/s
+
+->condition de déformation maximale (avec coefficients de sécurité)
+->condition sur la déformation dûe au flambement
+->condition de déflexion maximale 
+->condition sur la fréquence propre de la pale (avec coefficient de sécurité)
+->condition sur la contrainte en fatigue
+->contrainte sur sur la vitesse en bout de pale
 
 [1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
