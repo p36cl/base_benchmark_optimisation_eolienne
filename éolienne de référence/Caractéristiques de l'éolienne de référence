@@ -24,13 +24,13 @@ Aérodynamique :
 
 Les différents profils indiqués ainsi que leur caractéristiques aérodynamiques de portance et trainée peuvent être retrouvés dans le rapport [1].
 
-Dans l'étude des A.Ning [2] seuls 4 noeuds sont utilisés afin de pouvoir servir comme paramètre variable lors de l'optimsiation. 
+Dans l'étude de A. Ning [2] seuls 4 noeuds sont utilisés afin de pouvoir servir comme paramètre variable lors de l'optimisation. 
 Ces 4 noeuds décrivent la répartition ci-dessus via une interpolation.
 
 Structure :
 
-Les caractéristiques mécaniques le long de la pale sont entièrement décrite dans la table 2.1 de la référence [1]. 
-Pour s'approcher de ces caractéristiques mécaniques, l'étude [2] recrée une pale composée de matériaux compostites tels que décrits dans l'étude [3].
+Les caractéristiques mécaniques le long de la pale sont entièrement décrites dans la table 2.1 de la référence [1]. 
+Pour s'approcher de ces caractéristiques mécaniques, l'étude [2] recrée une pale composée de matériaux composites tels que décrits dans l'étude [3].
 
 
 [1] J. JM, S. Butterfield, W. Musial, et G. Scott, « Definition of a 5MW Reference Wind Turbine for Offshore System Development », National Renewable Energy Laboratory (NREL), janv. 2009, doi: 10.2172/947422.
