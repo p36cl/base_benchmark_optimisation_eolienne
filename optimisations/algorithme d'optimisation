@@ -7,16 +7,5 @@ Tous les objectifs et contraintes utilisés dans cette fonction sont normalisés
 
 La convergence de l'algortihme est définie lorsque l'évolution de la fonction objectif entre deux itération succesives est inférieure à 10^-6.
 
-Contraintes d'optimisation :
-étude des conditions extrêmes sur 50 ans càd à une vitesse de vent de 70 m/s
-
-->condition de déformation maximale (avec coefficients de sécurité)
-->condition sur la déformation dûe au flambement
-->condition de déflexion maximale 
-->condition sur la fréquence propre de la pale (avec coefficient de sécurité)
-->condition sur la contrainte en fatigue
-->contrainte sur sur la vitesse en bout de pale 
-
-
 [1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
 [2] R. H. Byrd, J. C. Gilbert, et J. Nocedal, « A trust region method based on interior point techniques for nonlinear programming », Math. Program., vol. 89, nᵒ 1, p. 149‑185, nov. 2000, doi: 10.1007/PL00011391.
