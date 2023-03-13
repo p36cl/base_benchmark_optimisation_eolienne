@@ -1,0 +1,6 @@
+Pour l'étude de resistance des matériaux, un code d'élément finis appellé pBEAM a été utilisé.
+Ce dernier repose sur la théorie des poutres et calcule :
+-le poids des éléments, les deflections
+-les fréquences propres
+-les charges axiales critiques de flambement
+-les contraintes axiales.
