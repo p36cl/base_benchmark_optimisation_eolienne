@@ -1,7 +1,7 @@
 Géométrie de référence basée sur l'étude éolienne de 5MW de la NREL [1]
 
-| Node | Position (m)|Angle de vrillage(°) | dr (m) | corde (m) | profil     |
-|-----:|------------:|--------------------:|-------:|----------:|---------   |
+| Noeud| Position (m)| Angle de vrillage(°)| dr (m) | corde (m) | profil     |
+|-----:|------------:|--------------------:|-------:|----------:|------------|
 |1     |2.8667       |13.308               |2.7333  |3.542      |Cylindre1   |
 |2     |5.6000       |13.308               |2.7333  |3.854      |Cylindre1   |
 |3     |8.3333       |13.308               |2.7333  |4.167      |Cylindre2   |
