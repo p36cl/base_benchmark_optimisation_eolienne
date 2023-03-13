@@ -1,6 +1,13 @@
-Pour l'étude de resistance des matériaux, un code d'élément finis appellé pBEAM a été utilisé.
+Pour l'étude de resistance des matériaux, un code d'éléments finis appellé pBEAM [1] a été utilisé.
 Ce dernier repose sur la théorie des poutres et calcule :
 -le poids des éléments, les deflections
 -les fréquences propres
 -les charges axiales critiques de flambement
 -les contraintes axiales.
+
+De plus les propriétés mécaniques de chaque sections peuvent être décrites comme des polynômes de n'importe quel ordre entre les noeuds.
+
+Pour calculer les inerties et les rigidités propres à chaque éléments, le code PreComp a été utilisé [2].
+
+[1] S. A. Ning, « Polynomial Beam Element Analysis Module », National Renewable Energy Lab. (NREL), Golden, CO (United States), pBEAM; 004838MLTPL00, mai 2013. Consulté le: 13 mars 2023. [En ligne]. Disponible sur: https://www.osti.gov/biblio/1262681
+[2] G. S. Bir, « User’s Guide to PreComp (Pre-Processor for Computing Composite Blade Properties) », NREL/TP-500-38929, 876556, janv. 2006. doi: 10.2172/876556.
