@@ -1,6 +1,15 @@
 Dans son étude, A. Ning [1] propose différents problèmes d'optimisation.
 
-Dans ceux-ci les objectifs d'optimisation, les caractéristiques recherchées et les contraintes peuvent être différents.
+Dans ceux-ci les critères d'évaluation, les caractéristiques recherchées et les contraintes peuvent être combinés de différentes manières.
+
+Ensemble des caractéristiques variables : 
+
+->Distribution des cordes le long de la pale (5 coordonnées variables)
+->Distribution de l'angle de vrillage le long de la pale (4 coordonnées variables)
+->Distribution de l'épaisseur de la tête de longeron le long de la pale (3 coordonnées variables)
+->vitesse spécifique (λ) dans la région 2 de fonctionnment (voir rubrique éolienne de référence)
+->Diamètre du rotor
+->Puissance nominale
 
 Ensemble des contraintes d'optimisation :
 étude des conditions extrêmes sur 50 ans càd à une vitesse de vent de 70 m/s
@@ -12,4 +21,9 @@ Ensemble des contraintes d'optimisation :
 ->condition sur la contrainte en fatigue
 ->contrainte sur sur la vitesse en bout de pale
 
+Ensemble des critères d'évaluation : 
+
+-> Maximisation de la production annuelle d'énergie (AEP)
+-> Minimisation du poids de la pale
+-> Minimisation du coût de l'énergie (COE)
 [1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
