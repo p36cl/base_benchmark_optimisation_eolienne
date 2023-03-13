@@ -9,5 +9,13 @@ De plus les propriétés mécaniques de chaque sections peuvent être décrites 
 
 Pour calculer les inerties et les rigidités propres à chaque éléments, le code PreComp a été utilisé [2].
 
+Le calcul de resistance de structure prend également en compte les effets du flambement sur les têtes de longeron. Sous certaines hypothèses la déformation maximale admissible peut être exprimée en fonction de la largeur et de l'épaisseur de la tête de longeron.
+
+Un calcul de fatigue pour les pieds de pale à également été inclus. Celui-ci ne concerne que la fatigue engendrée par la gravité.
+Le nombre de cycles au cours de la vie de l'éolienne est déterminé en fonction d'une vitesse de rotation moyennesur l'année et une durée de vie de 20 ans. La relation contrainte maximale de fatigue vs nombre de cycles est une courbe paramétrée de la forme σelastmax = a.N^b.
+Avec N : le nombre de cycles 
+a et b : paramètres, respectivement a = (σnom/0.9).N^(-b) et b = -10
+avec σnom : contrainte en pied de pale en condition nominale.
+
 [1] S. A. Ning, « Polynomial Beam Element Analysis Module », National Renewable Energy Lab. (NREL), Golden, CO (United States), pBEAM; 004838MLTPL00, mai 2013. Consulté le: 13 mars 2023. [En ligne]. Disponible sur: https://www.osti.gov/biblio/1262681
 [2] G. S. Bir, « User’s Guide to PreComp (Pre-Processor for Computing Composite Blade Properties) », NREL/TP-500-38929, 876556, janv. 2006. doi: 10.2172/876556.
