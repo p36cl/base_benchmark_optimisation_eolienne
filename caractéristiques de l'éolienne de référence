@@ -1,5 +1,27 @@
 Géométrie de référence basée sur l'étude éolienne de 5MW de la NREL [1]
 
+| Node | Position (m)|Angle de vrillage(°) | dr (m) | corde (m) | profil     |
+|-----:|------------:|--------------------:|-------:|----------:|---------   |
+|1     |2.8667       |13.308               |2.7333  |3.542      |Cylindre1   |
+|2     |5.6000       |13.308               |2.7333  |3.854      |Cylindre1   |
+|3     |8.3333       |13.308               |2.7333  |4.167      |Cylindre2   |
+|4     |11.7500      |13.308               |4.1000  |4.557      |DU40_A17    |
+|5     |15.8500      |11.480               |4.1000  |4.652      |DU35_A17    |
+|6     |19.9500      |10.162               |4.1000  |4.458      |DU35_A17    |
+|7     |24.0500      |9.011                |4.1000  |4.249      |DU30_A17    |
+|8     |28.1500      |7.795                |4.1000  |4.007      |DU25_A17    |
+|9     |32.2500      |6.544                |4.1000  |3.748      |DU25_A17    |
+|10    |36.3500      |5.361                |4.1000  |3.502      |DU21_A17    |
+|11    |40.4500      |4.188                |4.1000  |3.256      |DU21_A17    |
+|12    |44.5500      |3.125                |4.1000  |3.010      |NACA64_A17  |
+|13    |48.6500      |2.319                |4.1000  |2.764      |NACA64_A17  |
+|14    |52.7500      |1.526                |4.1000  |2.518      |NACA64_A17  |
+|15    |56.1667      |0.863                |2.7333  |2.313      |NACA64_A17  |
+|16    |58.9000      |0.370                |2.7333  |2.086      |NACA64_A17  |
+|17    |61.6333      |0.106                |2.7333  |1.419      |NACA64_A17  |
+
+Les différents profils indiqués ainsi que leur caractéristiques aérodynamiques de portance et trainée peuvent être retrouvés dans le rapport [1].
+
 
 [1] J. JM, S. Butterfield, W. Musial, et G. Scott, « Definition of a 5MW Reference Wind Turbine for Offshore System Development », National Renewable Energy Laboratory (NREL), janv. 2009, doi: 10.2172/947422.
 
