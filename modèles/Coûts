@@ -1,1 +1,13 @@
+Les coûts associés aux composants de l'éolienne dans l'étude [1] sont d'ordre financiers.
+Ces derniers sont principalement tirés de l'étude de la NREL sur les coûts des composants éoliens. [2]
+
+Des modifications ont été apportées à ce modèle de coûts.
+
+Premièrement, la masse du rotor est extraite du modèle structurel de l'éolienne et non du modèle de mise à l'échelle. La relation entre le poids de la pale et son coût est considérée comme linéaire.
+Deuxièmement un modèle de masse de la tour de l'éolienne est proposé. Cette dernière dépend de la masse de l'ensemble rotor/nacelle, de la poussée subie par le rotor, de la hauteur de la nacelle et du rayon de la tour évalué en son centre.
+
+La relation coût de la tour vs masse n'est elle pas modifiée.
+
+[1] A. Ning, R. Damiani, et P. Moriarty, Objectives and Constraints for Wind Turbine Optimization, vol. 136. 2013. doi: 10.2514/6.2013-201.
+[2] L. Fingersh, M. Hand, et A. Laxson, « Wind Turbine Design Cost and Scaling Model », NREL/TP-500-40566, déc. 2006. doi: 10.2172/897434.
 
