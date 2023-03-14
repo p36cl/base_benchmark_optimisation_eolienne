@@ -24,7 +24,7 @@ Aérodynamique :
 
 Les différents profils indiqués ainsi que leur caractéristiques aérodynamiques de portance et trainée peuvent être retrouvés dans le rapport [1].
 
-Dans l'étude de A. Ning [2] seuls 4 noeuds sont utilisés afin de pouvoir servir comme paramètre variable lors de l'optimisation. 
+Dans l'étude de A. Ning [2] seuls 4 noeuds sont utilisés afin de pouvoir servir comme paramètres variable lors de l'optimisation. 
 Ces 4 noeuds décrivent la répartition ci-dessus via une interpolation.
 
 Structure :
