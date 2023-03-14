@@ -3,7 +3,7 @@ Aérodynamique :
 Dans l'étude de A. Ning [1], les performances aérodynamiques sont calculées via une méthode BEM modifiée.
 
 La méthode BEM désigne la théorie du Blade Element Momentum. Cette dernière est ici modifiée (réduite à une seule variable) pour assurer la convergence (cf. ref [2]).
-D'autres modifications de la théorie sont prises en compte telles que les pertes en bout de pales de Prandtl [3] ou la correction pour les grandes valeur d'induction [4.]
+D'autres modifications de la théorie sont prises en compte telles que les pertes en bout de pales de Prandtl [3] ou la correction pour les grandes valeur d'induction [4].
 
 Le code BEM global est appelé CCBlade.
 
